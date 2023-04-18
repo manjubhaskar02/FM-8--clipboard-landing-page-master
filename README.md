@@ -42,7 +42,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/manjubhaskar02/FM-8--clipboard-landing-page-master](https://github.com/manjubhaskar02/FM-8--clipboard-landing-page-master)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://manjubhaskar02.github.io/FM-8--clipboard-landing-page-master/](https://manjubhaskar02.github.io/FM-8--clipboard-landing-page-master/)
 
 ## My process
 
