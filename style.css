@@ -1,18 +1,27 @@
 body {
-  /* min-height: 100vh;
+  min-height: 100vh;
   display: grid;
-  place-items: center; */
+  place-items: center;
   font-family: 'Bai Jamjuree', sans-serif;
 }
-header{
+
+header {
   background-image: url(images/bg-header-desktop.png);
-background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
+
 :root {
   --Strong-Cyan: hsl(171, 66%, 44%);
   --Light-Blue: hsl(233, 100%, 69%);
   --Dark-Grayish-Blue: hsl(210, 10%, 33%);
   --Grayish-Blue: hsl(201, 11%, 66%);
+}
+.icon-facebook{
+  fill: none;
+}
+.icon-facebook:hover{
+  fill
+  : var(--Strong-Cyan);
 }
 
 /* footer */
@@ -24,6 +33,30 @@ background-repeat: no-repeat;
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-.computer{
-  filter: drop-shadow(0.40em 0.40em 0.4em  hsl(180, 53%, 20%));
+
+@media screen and (max-width:500px) {
+  header {
+    background-image: url(images/bg-header-mobile.png);
+  }
 }
+/* .fa.fa-facebook-f {
+  font-size: 28px;
+  background-color: white;
+  color: hsl(192, 100%, 9%);
+  padding: 2px 4px 2px 10px;
+  border-radius: 4px;
+  height: 26px;
+}
+.fa.fa-facebook-f:hover{
+  background-color: aqua;
+}
+
+
+.fa.fa-twitter {
+  font-size: 34px;
+  color: white;
+  height: 26px;
+}
+.fa.fa-twitter:hover{
+  color: aqua;
+} */
